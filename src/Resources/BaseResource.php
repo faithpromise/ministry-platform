@@ -21,7 +21,7 @@ class BaseResource {
      */
     public function model($attributes = []) {
         $table_name = $this->getTableName();
-        $class_name = '\\App\\MinistryPlatform\\Models\\' . str_singular($table_name);
+        $class_name = '\\MinistryPlatform\\Models\\' . str_singular($table_name);
 
         return new $class_name($this->client, $attributes);
     }

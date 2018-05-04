@@ -4,7 +4,7 @@ namespace MinistryPlatform\Models;
 
 /**
  * Class Contact
- * @package App\MinistryPlatform\Models
+ * @package MinistryPlatform\Models
  *
  *
  * @property integer Contact_ID
