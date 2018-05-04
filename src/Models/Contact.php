@@ -57,7 +57,7 @@ namespace MinistryPlatform\Models;
 class Contact extends BaseModel {
 
     /**
-     * @return mixed
+     * @return $this
      * @throws \Exception
      */
     public function save() {
