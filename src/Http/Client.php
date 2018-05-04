@@ -35,7 +35,8 @@ class Client {
     private $username;
     private $password;
 
-    public function __construct($domain, $client_id, $client_secret, $username = null, $password = null, $persistence) {
+    public function __construct($domain, $client_id, $client_secret, $username = null, $password = null, $persistence = null) {
+
         $this->domain = $domain;
         $this->client_id = $client_id;
         $this->client_secret = $client_secret;
